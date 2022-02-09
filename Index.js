@@ -5,7 +5,10 @@ let footer = document.querySelector("#footer")
 let listOfTasks = document.querySelector('.listOfTasks');
 let doneTask = document.querySelector('.done')
 let newTask = document.querySelector('#taskBar');
-let tasks = JSON.parse(localStorage.getItem("tasks"))
+let tasks = [];
+if (localStorage.getItem("tasks")) {
+  tasks = JSON.parse(localStorage.getItem("tasks"))
+}
 
 addTaskButton.addEventListener('click', addTask);
 clearAllButton.addEventListener('click',clearAll);
