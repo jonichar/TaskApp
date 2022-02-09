@@ -1,0 +1,14 @@
+{
+    "task": "tarea1",
+    "status": "pendiente",
+    "completado": false,
+    "time": 8,
+    "person": {
+        "nombre": "Juan",
+        "correo": "juan@gmail",
+        "tel": 388221452,
+        "tasks":[
+            1,5,3
+        ]
+    }
+}

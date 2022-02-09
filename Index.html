@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="box">
+        <h1>Todo App</h1>
+
+        <div class="inputBox">
+          <input id="taskBar" type="text" placeholder="Add your new task" />
+      
+          <button id="addTaskButton" class="icon violetButton">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="baseIcon"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <div class="listOfTasks"></div>
+
+        <div id="footer" class="oculto">
+          <div>You Have <span id="taskPendingNumber">0</span> Pending Tasks</div>
+          <button id="clearButton" class="footerButton violetButton">Clear All</button>
+        </div>
+
+        <script src="Index.js"></script>
+
+
+</body>
+</html>

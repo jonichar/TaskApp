@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+  background-color: rgb(81, 134, 202);
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.box {
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 1.5em;
+  border-radius: 0.55em;
+}
+
+.inputBox {
+  display: flex;
+  margin-top: 20px;
+  align-items: stretch;
+  margin-bottom: 20px;
+}
+
+.baseIcon {
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.violetButton {
+  background-color: #8d49ec;
+  margin-left: 5px;
+  border-radius: 0.2em;
+  border: none;
+  cursor: cell;
+
+}
+
+.icon {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5em;
+}
+
+.taskBox {
+  cursor: pointer;
+  background-color: #f2f2f2;
+  border-radius: 0.2em;
+  margin-bottom: 0.5em;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.trashIconBox {
+  background-color: #f2483f;
+  border-radius: 0.2em;
+  width: 2.5em;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.taskList {
+  align-self: center;
+  padding: 0.5em;
+  user-select: none;
+  flex: 1;
+}
+
+#taskBar {
+  padding: 0.8em;
+  flex: 1;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  border-radius: 3px;
+}
+
+#footer{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerButton {
+  color: white;
+  padding: 1em;
+  
+}
+
+.oculto{
+  display: none;
+}
+
+.visible{
+  display: flex;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
