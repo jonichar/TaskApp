@@ -11,6 +11,14 @@ h1 {
   font-weight: 600;
 }
 
+#addTaskButton {
+  cursor: cell;
+}
+
+#clearButton {
+  cursor:pointer ;
+}
+
 .box {
   background-color: white;
   font-family: 'Poppins', sans-serif;
@@ -39,8 +47,6 @@ h1 {
   margin-left: 5px;
   border-radius: 0.2em;
   border: none;
-  cursor: cell;
-
 }
 
 .icon {
